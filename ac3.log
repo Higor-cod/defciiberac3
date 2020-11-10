@@ -1,0 +1,200 @@
+2020-11-10T22:30:36.848500+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T22:30:36.848500+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T22:30:36.848500+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:30:36.848501+00:00 app[web.1]: raise value
+2020-11-10T22:30:36.848502+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:30:36.848502+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:30:36.848502+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:30:36.848503+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:30:36.848503+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:30:36.848504+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:30:36.848504+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:30:36.848900+00:00 app[web.1]: 10.45.78.78 - - [10/Nov/2020 22:30:36] "GET / HTTP/1.1" 500 -
+2020-11-10T22:30:36.856132+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=94d4ac37-0dae-40c0-9bd1-b85ccbc218d4 fwd="189.46.248.71" dyno=web.1 connect=0ms service=3ms status=500 bytes=449 protocol=https
+2020-11-10T22:31:00.565172+00:00 app[web.1]: [2020-11-10 22:31:00,564] ERROR in app: Exception on / [GET]
+2020-11-10T22:31:00.565182+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T22:31:00.565183+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T22:31:00.565183+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T22:31:00.565184+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T22:31:00.565184+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T22:31:00.565185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T22:31:00.565185+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T22:31:00.565185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:31:00.565190+00:00 app[web.1]: raise value
+2020-11-10T22:31:00.565190+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:31:00.565191+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:31:00.565191+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:31:00.565191+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:31:00.565192+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:31:00.565192+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:31:00.565193+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:31:00.565597+00:00 app[web.1]: 10.35.179.103 - - [10/Nov/2020 22:31:00] "GET / HTTP/1.1" 500 -
+2020-11-10T22:31:00.569431+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=1cb3b01d-5611-4226-a102-3c5676fd317f fwd="189.46.248.71" dyno=web.1 connect=1ms service=4ms status=500 bytes=449 protocol=https
+2020-11-10T22:33:55.072270+00:00 app[web.1]: [2020-11-10 22:33:55,071] ERROR in app: Exception on / [GET]
+2020-11-10T22:33:55.072284+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T22:33:55.072286+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T22:33:55.072286+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T22:33:55.072287+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T22:33:55.072288+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T22:33:55.072288+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T22:33:55.072288+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T22:33:55.072289+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:33:55.072290+00:00 app[web.1]: raise value
+2020-11-10T22:33:55.072290+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:33:55.072291+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:33:55.072291+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:33:55.072292+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:33:55.072292+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:33:55.072292+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:33:55.072293+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:33:55.072834+00:00 app[web.1]: 10.16.178.50 - - [10/Nov/2020 22:33:55] "GET / HTTP/1.1" 500 -
+2020-11-10T22:33:55.077490+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=5e989394-101b-49d2-b733-64f62b4e79ae fwd="189.46.248.71" dyno=web.1 connect=2ms service=6ms status=500 bytes=449 protocol=https
+2020-11-10T23:06:05.704795+00:00 heroku[web.1]: Idling
+2020-11-10T23:06:05.707195+00:00 heroku[web.1]: State changed from up to down
+2020-11-10T23:06:06.937216+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-11-10T23:06:07.017842+00:00 heroku[web.1]: Process exited with status 143
+2020-11-10T23:14:35.360692+00:00 heroku[web.1]: Unidling
+2020-11-10T23:14:35.363428+00:00 heroku[web.1]: State changed from down to starting
+2020-11-10T23:14:38.667522+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-11-10T23:14:41.737761+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-11-10T23:14:41.737789+00:00 app[web.1]: * Environment: production
+2020-11-10T23:14:41.737823+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-11-10T23:14:41.737908+00:00 app[web.1]: Use a production WSGI server instead.
+2020-11-10T23:14:41.737983+00:00 app[web.1]: * Debug mode: off
+2020-11-10T23:14:41.768891+00:00 app[web.1]: * Running on http://0.0.0.0:19959/ (Press CTRL+C to quit)
+2020-11-10T23:14:42.876312+00:00 heroku[web.1]: State changed from starting to up
+2020-11-10T23:14:44.433012+00:00 app[web.1]: [2020-11-10 23:14:44,427] ERROR in app: Exception on / [GET]
+2020-11-10T23:14:44.433058+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T23:14:44.433059+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T23:14:44.433060+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T23:14:44.433060+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T23:14:44.433061+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T23:14:44.433061+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T23:14:44.433062+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T23:14:44.433062+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T23:14:44.433063+00:00 app[web.1]: raise value
+2020-11-10T23:14:44.433063+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T23:14:44.433064+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T23:14:44.433064+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T23:14:44.433064+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T23:14:44.433065+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T23:14:44.433065+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T23:14:44.433065+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T23:14:44.435907+00:00 app[web.1]: 10.11.150.203 - - [10/Nov/2020 23:14:44] "GET / HTTP/1.1" 500 -
+2020-11-10T23:14:44.437702+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=84f1f300-eff1-4f1b-ace7-eae27a0fc172 fwd="189.46.248.71" dyno=web.1 connect=0ms service=13ms status=500 bytes=449 protocol=https
+2020-11-10T23:18:50.000000+00:00 app[api]: Build started by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:14.863802+00:00 app[api]: Release v5 created by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:14.863802+00:00 app[api]: Deploy 9a55e740 by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:15.048017+00:00 heroku[web.1]: Restarting
+2020-11-10T23:19:15.063293+00:00 heroku[web.1]: State changed from up to starting
+2020-11-10T23:19:16.020437+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-11-10T23:19:16.112830+00:00 heroku[web.1]: Process exited with status 143
+2020-11-10T23:19:20.001435+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-11-10T23:19:23.000000+00:00 app[api]: Build succeeded
+2020-11-10T23:19:23.656493+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-11-10T23:19:23.656537+00:00 app[web.1]: * Environment: production
+2020-11-10T23:19:23.656611+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-11-10T23:19:23.656678+00:00 app[web.1]: Use a production WSGI server instead.
+2020-11-10T23:19:23.656735+00:00 app[web.1]: * Debug mode: off
+2020-11-10T23:19:23.686601+00:00 app[web.1]: * Running on http://0.0.0.0:54135/ (Press CTRL+C to quit)
+2020-11-10T23:19:24.447770+00:00 heroku[web.1]: State changed from starting to up
+2020-11-10T22:30:36.848500+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:30:36.848501+00:00 app[web.1]: raise value
+2020-11-10T22:30:36.848502+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:30:36.848502+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:30:36.848502+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:30:36.848503+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:30:36.848503+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:30:36.848504+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:30:36.848504+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:30:36.848900+00:00 app[web.1]: 10.45.78.78 - - [10/Nov/2020 22:30:36] "GET / HTTP/1.1" 500 -
+2020-11-10T22:30:36.856132+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=94d4ac37-0dae-40c0-9bd1-b85ccbc218d4 fwd="189.46.248.71" dyno=web.1 connect=0ms service=3ms status=500 bytes=449 protocol=https
+2020-11-10T22:31:00.565172+00:00 app[web.1]: [2020-11-10 22:31:00,564] ERROR in app: Exception on / [GET]
+2020-11-10T22:31:00.565182+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T22:31:00.565183+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T22:31:00.565183+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T22:31:00.565184+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T22:31:00.565184+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T22:31:00.565185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T22:31:00.565185+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T22:31:00.565185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:31:00.565190+00:00 app[web.1]: raise value
+2020-11-10T22:31:00.565190+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:31:00.565191+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:31:00.565191+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:31:00.565191+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:31:00.565192+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:31:00.565192+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:31:00.565193+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:31:00.565597+00:00 app[web.1]: 10.35.179.103 - - [10/Nov/2020 22:31:00] "GET / HTTP/1.1" 500 -
+2020-11-10T22:31:00.569431+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=1cb3b01d-5611-4226-a102-3c5676fd317f fwd="189.46.248.71" dyno=web.1 connect=1ms service=4ms status=500 bytes=449 protocol=https
+2020-11-10T22:33:55.072270+00:00 app[web.1]: [2020-11-10 22:33:55,071] ERROR in app: Exception on / [GET]
+2020-11-10T22:33:55.072284+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T22:33:55.072286+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T22:33:55.072286+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T22:33:55.072287+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T22:33:55.072288+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T22:33:55.072288+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T22:33:55.072288+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T22:33:55.072289+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T22:33:55.072290+00:00 app[web.1]: raise value
+2020-11-10T22:33:55.072290+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T22:33:55.072291+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T22:33:55.072291+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T22:33:55.072292+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T22:33:55.072292+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T22:33:55.072292+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T22:33:55.072293+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T22:33:55.072834+00:00 app[web.1]: 10.16.178.50 - - [10/Nov/2020 22:33:55] "GET / HTTP/1.1" 500 -
+2020-11-10T22:33:55.077490+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=5e989394-101b-49d2-b733-64f62b4e79ae fwd="189.46.248.71" dyno=web.1 connect=2ms service=6ms status=500 bytes=449 protocol=https
+2020-11-10T23:06:05.704795+00:00 heroku[web.1]: Idling
+2020-11-10T23:06:05.707195+00:00 heroku[web.1]: State changed from up to down
+2020-11-10T23:06:06.937216+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-11-10T23:06:07.017842+00:00 heroku[web.1]: Process exited with status 143
+2020-11-10T23:14:35.360692+00:00 heroku[web.1]: Unidling
+2020-11-10T23:14:35.363428+00:00 heroku[web.1]: State changed from down to starting
+2020-11-10T23:14:38.667522+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-11-10T23:14:41.737761+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-11-10T23:14:41.737789+00:00 app[web.1]: * Environment: production
+2020-11-10T23:14:41.737823+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-11-10T23:14:41.737908+00:00 app[web.1]: Use a production WSGI server instead.
+2020-11-10T23:14:41.737983+00:00 app[web.1]: * Debug mode: off
+2020-11-10T23:14:41.768891+00:00 app[web.1]: * Running on http://0.0.0.0:19959/ (Press CTRL+C to quit)
+2020-11-10T23:14:42.876312+00:00 heroku[web.1]: State changed from starting to up
+2020-11-10T23:14:44.433012+00:00 app[web.1]: [2020-11-10 23:14:44,427] ERROR in app: Exception on / [GET]
+2020-11-10T23:14:44.433058+00:00 app[web.1]: Traceback (most recent call last):
+2020-11-10T23:14:44.433059+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-11-10T23:14:44.433060+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-11-10T23:14:44.433060+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1807, in full_dispatch_request
+2020-11-10T23:14:44.433061+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-11-10T23:14:44.433061+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1710, in handle_user_exception
+2020-11-10T23:14:44.433062+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-11-10T23:14:44.433062+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+2020-11-10T23:14:44.433063+00:00 app[web.1]: raise value
+2020-11-10T23:14:44.433063+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1805, in full_dispatch_request
+2020-11-10T23:14:44.433064+00:00 app[web.1]: rv = self.dispatch_request()
+2020-11-10T23:14:44.433064+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1791, in dispatch_request
+2020-11-10T23:14:44.433064+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-11-10T23:14:44.433065+00:00 app[web.1]: File "primos.py", line 26, in nao_entre_em_panico
+2020-11-10T23:14:44.433065+00:00 app[web.1]: primos = primos + etr(numero) + ","
+2020-11-10T23:14:44.433065+00:00 app[web.1]: NameError: name 'etr' is not defined
+2020-11-10T23:14:44.435907+00:00 app[web.1]: 10.11.150.203 - - [10/Nov/2020 23:14:44] "GET / HTTP/1.1" 500 -
+2020-11-10T23:14:44.437702+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=84f1f300-eff1-4f1b-ace7-eae27a0fc172 fwd="189.46.248.71" dyno=web.1 connect=0ms service=13ms status=500 bytes=449 protocol=https
+2020-11-10T23:18:50.000000+00:00 app[api]: Build started by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:14.863802+00:00 app[api]: Release v5 created by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:14.863802+00:00 app[api]: Deploy 9a55e740 by user higor.lima@aluno.faculdadeimpacta.com.br
+2020-11-10T23:19:15.048017+00:00 heroku[web.1]: Restarting
+2020-11-10T23:19:15.063293+00:00 heroku[web.1]: State changed from up to starting
+2020-11-10T23:19:16.020437+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-11-10T23:19:16.112830+00:00 heroku[web.1]: Process exited with status 143
+2020-11-10T23:19:20.001435+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-11-10T23:19:23.000000+00:00 app[api]: Build succeeded
+2020-11-10T23:19:23.656493+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-11-10T23:19:23.656537+00:00 app[web.1]: * Environment: production
+2020-11-10T23:19:23.656611+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-11-10T23:19:23.656678+00:00 app[web.1]: Use a production WSGI server instead.
+2020-11-10T23:19:23.656735+00:00 app[web.1]: * Debug mode: off
+2020-11-10T23:19:23.686601+00:00 app[web.1]: * Running on http://0.0.0.0:54135/ (Press CTRL+C to quit)
+2020-11-10T23:19:24.447770+00:00 heroku[web.1]: State changed from starting to up
+2020-11-10T23:28:49.218991+00:00 heroku[router]: at=info method=GET path="/" host=defciiberac3py.herokuapp.com request_id=978dd20f-764d-4041-8205-e365a7d59ec8 fwd="189.46.248.71" dyno=web.1 connect=0ms service=4ms status=200 bytes=566 protocol=https
+2020-11-10T23:28:49.219030+00:00 app[web.1]: 10.183.68.6 - - [10/Nov/2020 23:28:49] "GET / HTTP/1.1" 200 -
